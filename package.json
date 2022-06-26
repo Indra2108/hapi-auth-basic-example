@@ -1,0 +1,24 @@
+{
+  "name": "authbasic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon src/server.js"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Indra2108 <Indra2108@github>",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/basic": "^6.0.0",
+    "@hapi/hapi": "^20.2.2",
+    "bcrypt": "^5.0.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
