@@ -6,15 +6,4 @@ const sequelize = new Sequelize('test', 'root', 'Indra2108!', {
     dialect: 'mysql'
 })
 
-// try {
-//     sequelize.authenticate()
-//     console.debug('Database Connect!')
-// } catch (error) {
-//     console.error('Unable to connect database: ', error)
-// }
-
-db = {}
-db.sequelize = sequelize // for connecting database
-db.Sequelize = Sequelize // for importing library, (avoiding too many imports)
-
-module.exports = db
+module.exports = sequelize
