@@ -14,6 +14,9 @@ const routes = [
         path: '/{any*}',
         handler: (request, h) => {
             return 'Nyasar euuyyy!!'
+        },
+        options: {
+            auth: false
         }
     },
     {
@@ -28,9 +31,6 @@ const routes = [
         method: 'GET',
         path: '/getUsers',
         handler: getUsers,
-        options: {
-            auth: false
-        }
     },
 ]
 
